@@ -13,7 +13,7 @@
 Before downloading make sure you have:
 * OS `Windows`
 * Input Device `Keyboard`
-* Read [`📚Documentation`](Documentation.md) / [`🙋User Guide`](UserGuide.md)
+* Read [`📚Documentation`](Docs/DOCUMENTATION.md) / [`🙋User Guide`](Docs/USER_GUIDE.md)
 
 ## 🤝 Devs 
 
