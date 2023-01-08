@@ -12,7 +12,7 @@
 
 Before downloading make sure you have:
 * OS `Windows`
-* Inout Device `Keyboard`
+* Input Device `Keyboard`
 * Read [`📚Documentation`](Documentation.md) / [`🙋User Guide`](UserGuide.md)
 
 ## 🤝 Devs 
