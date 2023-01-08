@@ -11,9 +11,9 @@
 ## 💻 Requirements 
 
 Before downloading make sure you have:
-* OS <`Windows`>
-* Inout Device <`Keyboard`>
-* Read <[`📚Documentation`](Documentation.md)> <[`🙋User Guide`](UserGuide.md)>
+* OS `Windows`
+* Inout Device `Keyboard`
+* Read [`📚Documentation`](Documentation.md) / [`🙋User Guide`](UserGuide.md)
 
 ## 🤝 Devs 
 
