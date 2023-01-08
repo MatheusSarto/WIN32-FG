@@ -1,4 +1,4 @@
-#WIN32 - Fighting Game 
+#Fighting_Game
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/MatheusSarto/WIN32-FG)
 ![GitHub language count](https://img.shields.io/github/languages/count/MatheusSarto/WIN32-FG)
@@ -33,4 +33,4 @@ Main devs involved:
 </table>
 
 
-[⬆ Back to Top](#WIN32 - Fighting Game)<br>
+[⬆ Back to Top](#Fighting_Game)<br>
