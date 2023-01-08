@@ -32,13 +32,5 @@ Main devs involved:
   </tr>
 </table>
 
-##  Guia do Usuário<br>
-
-Alguma duvida no uso do software? Clique [AQUI](AJUDA.md) e leia como utilizar nosso app, em mais detalhes.
-
-
-##  Documentação<br>
-
-Quer contribuir para o projeto? Clique [AQUI](DOCUMENTACAO.md) e leia nossa documentação.
 
 [⬆ Back to Top](# WIN32 - Fighting Game)<br>
