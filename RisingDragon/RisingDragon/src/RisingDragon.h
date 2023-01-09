@@ -3,9 +3,9 @@
 // For use by Applications ( Clients )
 
 
-#include "Engine/Application.h"
-#include "Engine/Core.h"
+#include "RisingDragon/Application.h"
+#include "RisingDragon/Core.h"
 
 //---Entry Point------------------
-#include "Engine/EntryPoint.h"
+#include "RisingDragon/EntryPoint.h"
 //--------------------------------

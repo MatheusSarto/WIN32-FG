@@ -2,10 +2,10 @@
 
 #include "Core.h"
 
-namespace Engine
+namespace RisingDragon
 {
 
-	 class EG_API Application
+	 class RD_API Application
 	{
 	public:
 		Application();

@@ -1,6 +1,6 @@
 #include "Application.h"
 
-namespace Engine
+namespace RisingDragon
 {
 
 	Application::Application()
