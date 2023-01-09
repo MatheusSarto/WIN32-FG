@@ -2,20 +2,13 @@
 
 class SandBox : public Engine::Application
 {
-	SandBox()
-	{
-	}
-
-	~SandBox()
-	{
-	
-	}
+public:
+	SandBox() {}
+	~SandBox() {}
 };
 
-void main()
+Engine::Application* Engine::CreateApplication()
 {
-	SandBox* sandbox = new SandBox();
-	sandbox->Run();
-	delete sandbox;
+	return new SandBox();
 
 }

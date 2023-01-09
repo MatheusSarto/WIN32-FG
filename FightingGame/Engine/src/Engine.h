@@ -1,5 +1,11 @@
 #pragma once
 
-// For use by Applications ( clients )
+// For use by Applications ( Clients )
+
 
 #include "Engine/Application.h"
+#include "Engine/Core.h"
+
+//---Entry Point------------------
+#include "Engine/EntryPoint.h"
+//--------------------------------

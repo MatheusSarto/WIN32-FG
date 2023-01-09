@@ -4,6 +4,7 @@
 
 namespace Engine
 {
+
 	 class EG_API Application
 	{
 	public:
@@ -13,4 +14,6 @@ namespace Engine
 		void Run(void);
 	};
 
+	 // To be Defined in CLIENT
+	 Application* CreateApplication();
 }

@@ -9,3 +9,5 @@
 #else
 	#error Only Windows Supported!
 #endif
+
+#include <stdio.h>
