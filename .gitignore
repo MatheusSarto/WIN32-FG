@@ -3,6 +3,14 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Visual Studio Files
+*.vcxproj
+*.vcxproj.filters
+*.sln
+
+# Bin Directories
+/RisingDragon/bin/
+/RisingDragon/bin-int/
 # User-specific files
 *.rsuser
 *.suo

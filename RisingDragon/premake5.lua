@@ -1,6 +1,9 @@
 workspace "RisingDragon"
 	architecture "x64"
+	startproject "Sandbox"
 	
+	--dependson { "Sandbox", "RisingDragon"} 
+
 	configurations  
 	{ 
 		"Debug", 
@@ -37,9 +40,8 @@ project "RisingDragon"
 
 		postbuildcommands
 		{
-			("copy %{cfg.buildtarget.relpath} ../bin/" .. outputdir .."/SandBox")
+			("{COPYFILE} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .."/Sandbox")
 		}
-
 
 	filter "configurations:Debug"
 		defines "RD_DEBUG"
@@ -54,8 +56,8 @@ project "RisingDragon"
 		optimize "On"
 
 
-project "SandBox"
-	location "SandBox"
+project "Sandbox"
+	location "Sandbox"
 	kind "ConsoleApp"
 	language "C++"
 
