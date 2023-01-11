@@ -1,10 +1,8 @@
 #Fighting_Game
 
-![GitHub repo size](https://img.shields.io/github/repo-size/MatheusSarto/WIN32-FG)
-![GitHub language count](https://img.shields.io/github/languages/count/MatheusSarto/WIN32-FG)
+![GitHub repo size](https://img.shields.io/github/repo-size/MatheusSarto/WIN32-FG?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/MatheusSarto/WIN32-FG?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/MatheusSarto/WIN32-FG?style=social)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/MatheusSarto/WIN32-FG)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/MatheusSarto/WIN32-FG)
 
 > I love video games, epecially Fighting Games (FG)! I'm also into programming and game development, so this seems like a perfect opportunity to try something new. This repo contains a project that I'm creating from scratch, a fighting game, without using any engine. That's all for study purposes, but I'll give my best to create something fun and playable. 😄🎮
 
