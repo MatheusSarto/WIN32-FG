@@ -38,10 +38,6 @@ project "RisingDragon"
 			"RD_BUILD_DLL"
 		}
 
-		postbuildcommands
-		{
-			("{COPYFILE} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .."/Sandbox")
-		}
 
 	filter "configurations:Debug"
 		defines "RD_DEBUG"
@@ -85,6 +81,11 @@ project "Sandbox"
 		defines
 		{
 			"RD_PLATAFORM_WINDOWS",
+		}
+
+		postbuildcommands
+		{
+			"{COPY} ../bin/" .. outputdir .. "/RisingDragon/*.dll ../bin/" .. outputdir .. "/Sandbox"
 		}
 
 	filter "configurations:Debug"
