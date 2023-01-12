@@ -2,7 +2,6 @@
 
 // For use by Applications ( Clients )
 
-
 #include "RisingDragon/Application.h"
 #include "RisingDragon/Core.h"
 

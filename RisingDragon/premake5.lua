@@ -1,8 +1,6 @@
 workspace "RisingDragon"
 	architecture "x64"
 	startproject "Sandbox"
-	
-	--dependson { "Sandbox", "RisingDragon"} 
 
 	configurations  
 	{ 
@@ -25,6 +23,11 @@ project "RisingDragon"
 	{
 		"%{prj.name}/src/**.h",
 		"%{prj.name}/src/**.cpp"
+	}
+
+	includedirs
+	{
+		"%{prj.name}/src"
 	}
 	
 	filter "system:windows"
@@ -66,7 +69,10 @@ project "Sandbox"
 		"%{prj.name}/src/**.cpp"
 	}
 
-	includedirs{ "RisingDragon/src" }
+	includedirs
+	{ 
+		"RisingDragon/src" 
+	}
 
 	links 
 	{
