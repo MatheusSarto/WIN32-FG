@@ -4,7 +4,7 @@
 
 #include <string>
 #include <functional>
-
+#include <sstream>
 
 namespace RisingDragon
 {
@@ -38,7 +38,7 @@ namespace RisingDragon
 #define EVENT_CLASS_CATEGORY(category) virtual int GetCategoryFlags() const override { return category; }
 
 
-	class RD_API Event
+	class Event
 	{
 		friend class EventDispatcher;
 
