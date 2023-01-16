@@ -1,5 +1,5 @@
 #pragma once
-
+#include "rdpch.h"
 #include "Event.h"
 
 namespace RisingDragon

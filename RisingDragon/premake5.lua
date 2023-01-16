@@ -19,6 +19,9 @@ project "RisingDragon"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "rdpch.h"
+	pchsource "RisingDragon/src/rdpch.cpp" -- <--- Visual Studio Only
+
 	files
 	{
 		"%{prj.name}/src/**.h",

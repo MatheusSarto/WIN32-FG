@@ -1,10 +1,7 @@
 #pragma once
-
+#include "rdpch.h"
 #include "RisingDragon/Core.h"
 
-#include <string>
-#include <functional>
-#include <sstream>
 
 namespace RisingDragon
 {
